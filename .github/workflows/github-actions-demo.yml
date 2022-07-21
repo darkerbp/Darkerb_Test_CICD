@@ -1,5 +1,8 @@
-name: GitHub Actions Demo
-on: [push]
+name: Actions Getting Start
+on:
+  pull_request:
+    branches:
+      - A6RC tag*
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
